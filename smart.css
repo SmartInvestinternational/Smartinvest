@@ -1,0 +1,21 @@
+#contaner{
+    font-size: 30px;
+    background: url("white.jpg");
+}
+footer{
+    background: url("white.jpg");
+}
+#contain{
+    background: url(white2.jpeg);
+    font-size: large;
+}
+@media (width <= 550px) {
+    #brr{
+        width:50%;
+        height:50%;
+    }
+    img{
+        width:58%;
+        height:100%;
+    }
+}

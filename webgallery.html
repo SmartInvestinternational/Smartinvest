@@ -1,0 +1,91 @@
+<html>
+    <head>
+    <title>Gallery</title> 
+    </head>
+    <style>
+        body{
+            background:url("white.jpg");
+            margin-top:20px ;
+            font-family:Arial, Helvetica, sans-serif;
+            color:black;
+        }
+        .thumbnails img{
+            height: 80px;
+            border:4px solid #555;
+            padding:2px;
+            margin: 0 10px 10px 0;
+        }
+        .thumbnails img:hover{
+            border:4px solid #00ccff;
+            background-color: #00ccff;
+        }
+        .preview img{
+            border: 4px solid #444;
+            padding: 1px;
+            width: 800px;
+        }
+        @media (width <=600px) {
+            #brr{
+                width:80%;
+            }
+        }
+    </style>
+    <body>
+        <div id="contianer">
+            <table>
+                <tr>
+                    <td><img src="smarttt.png" id="brr" width="30%" height="40%"></td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td><font size="5px"><a href="sminvest.html" target="_blank">Home</a></font></td>
+                                <td><font size="5px"><a href="#">About</a></font></td>
+                                <td><font size="5px"><a href="mailto:officialcoryrogers@gmail.com">Contact</a></font></td>
+                                <td><font size="5px"><a href="webgallery.html">Gallery</a></font></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+
+            <br />
+
+            <div class="thumbnails">
+                <img onmouseover="preview.src=img1.src" name="img1" src ="img1.jpeg">
+                <img onmouseover="preview.src=img2.src" name="img2" src ="img2.jpg">
+                <img onmouseover="preview.src=img3. src" name="img3" src ="img3.jpg">
+                <img onmouseover="preview.src=img4.src" name="img4" src ="img4.jpg">
+                <img onmouseover="preview.src=img5.src" name="img5" src ="img5.jpg">
+               
+                <img onmouseover="preview.src=img7.src" name="img7" src ="img7.jpg">
+                <img onmouseover="preview.src=img8.src" name="img8" src ="img8.jpg">
+                <img onmouseover="preview.src=img9.src" name="img9" src ="img9.jpg">
+                <img onmouseover="preview.src=img10.src" name="img10" src ="img10.jpg">
+
+
+
+            </div>
+
+            <div class="preview" align ="center">
+                <img name="preview" src="img10.jpg">
+            </div>
+        </div>
+        <h2 align="center"><em>Smart invest</em></h2>
+        <hr>
+        <footer>
+            <table align = "center"cellspacing="12" cellpadding="12">
+                <tr>
+                    <td><a href="sm1.html">Terms and Condition</a></td>
+                    <td><a href="mailto:officialcoryrogers@gmail.com">Contact Us</a></td>
+                    <td><a href="success.html">Success stories</a></td>
+                </tr>
+             
+            </table>
+            <p align="center">
+                All right reserved to <b>Smart Invest</b>
+            </p>
+         </footer>
+    </body>
+</html>

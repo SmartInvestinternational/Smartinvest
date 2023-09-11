@@ -1,0 +1,69 @@
+#insid{
+    text-align: right;
+    display:flex;
+    justify-self: space-around;
+    font-size: larger;
+    word-spacing: 20px;
+    padding:30px;
+}
+#he3{
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    position:static;
+}
+body{
+    background:url("white.jpg");
+    color:black;
+}
+a:link{
+    color: blue;
+}
+a:active{
+    color:red;
+}
+#brr{
+    width:35%;
+    vertical-align: top;
+    background: transparent;
+    
+}
+#cah{
+    text-align: center;
+    background:url(blue.jpg);
+}
+#tabb{
+    font-size: 34px;
+}
+#intab{
+    background: url(purp.jpg);
+    font-size:30px;
+}
+#he1{
+    text-align:center;
+    color:white;
+}
+#bigg{
+    display:flex;
+    justify-self:left;
+    text-align:left;
+
+}
+@media (width <= 500px) {
+
+    #brr{
+        width:100%;
+        height:100%;
+    }
+    body{
+        background-color: black;
+    }
+    #smart{
+        background-color: black;
+    }
+
+    
+}
+#new{
+    font-size: larger;
+}
