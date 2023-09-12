@@ -1,0 +1,64 @@
+#container{
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+}
+#links{
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    word-spacing: 4px;
+    flex-direction: row;
+    padding:50px;
+    font-weight: bold;
+}
+#gee{
+    padding-right: 4px;
+}
+#gee1{
+    padding-right: 4px;
+}
+#gee2{
+    padding-right: 4px;
+}
+#gee3{
+    padding-right: 4px;
+}
+#peace{
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    background:url("purp.jpg");
+}
+
+
+
+@media (width <=900px) {
+    #brer{
+        width:50%;
+        height:100%;
+    }
+    #banner{
+        width:100%;
+        height:100%;
+    }
+    
+}
+@media (width <= 500px) {
+    #brer{
+        width:70%;
+        height:70%;
+    }
+    #links{
+        padding:0;
+    }
+    
+}
+#center{
+    text-align:center;
+    background: url(blue.jpg);
+}
+
+body{
+    background: url("white.jpg");
+}
