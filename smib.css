@@ -6,37 +6,53 @@
     word-spacing: 20px;
     padding:30px;
 }
-@media (width <= 800px) {
+#container{
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+}
+#links{
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    word-spacing: 4px;
+    flex-direction: row;
+    padding:50px;
+    font-weight: bold;
+}
+#gee{
+    padding-right: 4px;
+}
+#gee1{
+    padding-right: 4px;
+}
+#gee2{
+    padding-right: 4px;
+}
+#gee3{
+    padding-right: 4px;
+}
 
-    #brr{
-        width:40%;
-        height:50%;
-    }
-    #smart{
-        background-color: black;
-    }
 
+@media (width <=900px) {
+    #brer{
+        width:50%;
+        height:100%;
     }
-@media (width <=500px) {
-#brr{
-    width:50%;
+    
 }
-    body{
-    color:black;
-}
-table{
-    width:100%;
-}
-}
-@media (width < 300px) {
-#brr {
-     width:45%;
+@media (width <= 500px) {
+    #brer{
+        width:70%;
+        height:70%;
+    }
+    #links{
+        padding:0;
+    }
+    
 }
 
-table{
-    width:100%;
-}
-}
+
 #kid{
     display:flex;
     flex:1;
