@@ -6,6 +6,37 @@
     word-spacing: 20px;
     padding:30px;
 }
+@media (width <= 800px) {
+
+    #brr{
+        width:40%;
+        height:50%;
+    }
+    #smart{
+        background-color: black;
+    }
+
+    }
+@media (width <=500px) {
+#brr{
+    width:50%;
+}
+    body{
+    color:black;
+}
+table{
+    width:100%;
+}
+}
+@media (width < 300px) {
+#brr {
+     width:45%;
+}
+
+table{
+    width:100%;
+}
+}
 #kid{
     display:flex;
     flex:1;
