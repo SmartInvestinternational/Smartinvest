@@ -11,6 +11,7 @@
     flex-direction: row;
     padding:50px;
     font-weight: bold;
+    font-size:12px;
 }
 #gee{
     padding-right: 4px;
