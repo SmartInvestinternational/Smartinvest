@@ -6,6 +6,12 @@
     word-spacing: 20px;
     padding:30px;
 }
+#kid{
+    display:flex;
+    flex:1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 #he3{
     font-size: larger;
     display: flex;
