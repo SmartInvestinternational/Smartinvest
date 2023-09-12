@@ -11,7 +11,10 @@
     flex-direction: row;
     padding:50px;
     font-weight: bold;
-    font-size:120px;
+}
+a:link{
+    color:blue;
+    font-size:30%;
 }
 #gee{
     padding-right: 4px;
