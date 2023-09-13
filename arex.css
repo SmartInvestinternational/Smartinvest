@@ -9,6 +9,7 @@
     justify-content: space-between;
     word-spacing: 4px;
     flex-direction: row;
+    padding:50px;
 }
 a:link{
     color:blue;
